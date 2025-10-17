@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 :root {
-  --fundo-principal: #AFB7D4;
+  --fundo-principal: #D7DBEA;
   --texto: #222222;
   --texto-inverso: #ffffff;
   --destaque: #272727;
@@ -24,7 +24,7 @@
 }
 
 body{
-  font-family: cursive;
+  font-family:Arial, Helvetica, sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
@@ -188,6 +188,7 @@ article h2 {
  border-radius: 8px;
  border-left: 5px solid var(--destaque-inverso);
  padding-left: 15px;
+ padding: 10px;
  transition: border-width 0.5s, border-color 0.5s; 
 
 }
