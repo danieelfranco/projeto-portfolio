@@ -17,8 +17,8 @@
   --fundo-principal: #D7DBEA;
   --texto: #222222;
   --texto-inverso: #ffffff;
-  --destaque: #272727;
-  --destaque-inverso: #1F9AFF;
+  --destaque: #050505;
+  --destaque-inverso: #432BDE;
   --fundo-card: #FFFFFF;
   --fundo-card-2: #F5F5F5;
 }
@@ -29,6 +29,10 @@ body{
   background-color: var(--fundo-principal);
   color: var(--texto);
 
+}
+
+#ficha p {
+  text-align: justify;
 }
 
 header {
